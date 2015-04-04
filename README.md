@@ -2,7 +2,8 @@ Windows Azure Notification Hubs plugin for Apache Cordova
 ==================================
 Exposes Windows Azure [Notification Hubs](http://www.windowsazure.com/en-us/services/notification-hubs/) functionality as Apache Cordova Plugin. Support of Windows8, Windows Phone8, iOS and Android.
 
-
+### To install ###
+    $ cordova plugin add https://github.com/iFernandoSousa/cordova-plugin-azure-notificationhub.git
 ### Sample usage ###
 
     var connectionString = "Endpoint=sb://[service bus name space].servicebus.windows.net/;SharedAccessKeyName=DefaultFullSharedAccessSignature;SharedAccessKey=[notification hub full key]",
